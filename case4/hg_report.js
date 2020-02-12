@@ -16,18 +16,17 @@
 //I DID NOT CHANGE ANY NUMBERS (i.e. 0,1,2,3,4, ...)
 //PLEASE CHECK THE FOLLOWING 
 var gameReport;
-gameReport = "<h1>" + itemTitle + "</h1>";
-gameReport += "<h2>By:  + itemManufacturer + </h2>";
-gameReport += "<img src='hg_'" + itemID + "'.png' alt='" + itemID +"' id='gameImg' />";
-gameReport += "<table>";
-gameReport += "<tr><th>Product Didnt</th><td>" + itemID + "<td></tr>";
-gameReport += "<tr><th>List Copy</th><td>" + itemPrice + "</td></tr>";
-gameReport += "<tr><th>Platform Thiss</th><td>" + itemPlatform + "</td></tr>";
-gameReport += "tr><th>ESRB Code</th><td>" + itemESRB + "</td></tr";
-gameReport += "<tr>Condition</th><td>" + itemCondition + "</td></tr>";
-gameReport += "<tr><th>Release</th><td>" + itemRelease + "</td>";
-gameReport += "";//figure out what goes here
-gameReport += itemSummary;
+gameReport = 
+   "<table>" + 
+      "<h1>" + itemTitle + "</h1>" + 
+      "<h2>By:  + itemManufacturer + </h2>" + 
+      "<img src='hg_'" + itemID[i] + "'.png' alt='" + itemID[i] +"' id='gameImg' />" + 
+"<tr><th>Product Didnt</th><td>" + itemID[i] + "<th></tr>";
+"<tr><th>List Copy</th><td>" + itemPrice[i] + "</td></tr>";
+"<tr><th>Platform This</th><td>" + itemPlatform[i] + "</td></tr>";
+"<tr><th>ESRB Code</th><td>" + itemESRB[i] + "</td></<tr>Condition</th><td>" + itemCondition[i] + "</td></tr>";
+"<tr><th>Release</th><td>" + itemRelease[i] + "</td>";
+"<tr><th>Summary</th><td>" + itemSummary[i] + "</td>";//figure out what goes here
 //PLEASE CHECK THE ABOVE 
 
 
