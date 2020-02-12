@@ -11,7 +11,7 @@
    Variables:
    the donors multi-dimension array contains the following data with following column indices
       donors[0] - donorID
-      donors[1] - frist name
+      donors[1] - first name
       donors[2] - last name
       donors[3] - address
       donors[4] - city
